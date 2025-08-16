@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+jupyter_cache/
+*.nbconvert.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Figures (keep folder but ignore large binaries; students can un-ignore their finals)
+figures/*.svg
+figures/*.pdf
+figures/*.tif
+figures/*.jpg
+figures/*.png
